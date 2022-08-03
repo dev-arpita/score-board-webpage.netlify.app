@@ -47,9 +47,5 @@ scoreElB.textContent = secondTeamScore;
 scoreElA.textContent = firstTeamScore;
 }
 
-// if (firstTeamScore > secondTeamScore)
-//     return "BRAVO! you win LeBron James";
-// else
-// return  "Oops! you're loosing the game"}
 
 
