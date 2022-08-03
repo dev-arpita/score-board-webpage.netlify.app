@@ -1,0 +1,47 @@
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="members">
+                    <div class="team" id="team-a">
+                        <h3>LeBron James</h3>
+                        <div class="score-box" id="score-el-a">0</div>
+                        <div class="btn-link">
+                            <button class="btn" onclick="scorea1()"> +1 </button>
+                            <button class="btn" onclick="scorea2()"> +2 </button>
+                            <button class="btn" onclick="scorea3()"> +3 </button>
+                        </div> <!-- /btn-link -->
+                    </div><!-- /team -->
+
+
+
+                    <div class="team" id="team-b">
+                        <h3>Karl Malone</h3>
+                        <div class="score-box" id="score-el-b">0</div>
+                        <div class="btn-link">
+                            <button class="btn" onclick="scoreb1()"> +1 </button>
+                            <button class="btn" onclick="scoreb2()"> +2 </button>
+                            <button class="btn" onclick="scoreb3()"> +3 </button>
+                        </div><!-- /btn-link -->
+                    </div><!-- /team -->
+
+            </div>
+            <div class="result">
+                <button id="start-btn" onclick="restart()">New Game</button>
+                <p id="winner"></p>
+            </div> <!-- /result -->
+
+
+        </div><!-- /container -->
+            <script src="index.js"></script>
+    </body>
+
+</html>
