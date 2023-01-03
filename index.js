@@ -10,32 +10,32 @@ let winner = document.getElementById("winner");
 let firstTeamScore = 0;
 let secondTeamScore = 0;
 
-function scorea1() {
+function scoreA1() {
    firstTeamScore +=1 ;
    scoreElA.textContent = firstTeamScore;
 }
 
-function scorea2() {
+function scoreA2() {
   firstTeamScore +=2 ;
    scoreElA.textContent = firstTeamScore;
 }
 
-function scorea3() {
+function scoreA3() {
    firstTeamScore +=3 ;
    scoreElA.textContent = firstTeamScore;
 }
 
-function scoreb1() {
+function scoreB1() {
     secondTeamScore += 1;
     scoreElB.textContent = secondTeamScore;
 }
 
-function scoreb2() {
+function scoreB2() {
     secondTeamScore += 2;
     scoreElB.textContent = secondTeamScore;
 }
 
-function scoreb3() {
+function scoreB3() {
     secondTeamScore += 3;
     scoreElB.textContent = secondTeamScore;
 }
@@ -46,6 +46,9 @@ secondTeamScore = 0;
 scoreElB.textContent = secondTeamScore;
 scoreElA.textContent = firstTeamScore;
 }
+
+// let result =
+
 
 
 
